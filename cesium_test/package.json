@@ -10,6 +10,8 @@
     "cesium-react": "^0.2.2",
     "copy-webpack-plugin": "^10.2.4",
     "html-webpack-include-assets-plugin": "^2.0.0",
+    "ol-cesium": "^2.13.0",
+    "olcs": "^2.13.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,8 +21,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "set PORT=3001 && react-scripts start"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "symlink-dir": "^5.0.1"
   }
 }
